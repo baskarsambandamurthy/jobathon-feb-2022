@@ -5,6 +5,16 @@
 - Public LB Rank: 55th
 - Public LB Score:  0.4256
 
+## File Overview
+
+| File Name|  Description
+|----------------------|-------------------------------|
+| jobathon-feb-2022-model.ipynb        | This file contains the main functionality and it performs EDA till test predictions. It uses tuned parameters retrieved from output of another source code file.
+| jobathon-feb-2022-tuning.ipynb | This file contains the code related to tuning of the selected model and the tuned parameters are the output of the execution of this file.
+| profiling-pandas-jobathon-2022.ipynb | EDA for this problem is performed in this source code and the output of the EDA profiling is stored in separate html files for train and test data separately
+| train profile report.html | contains the EDA profile report generated for train dataset by the profiling source code file
+| test profile report.html | contains the EDA profile report generated for test dataset by the profiling source code file
+
 ## Key points for top score achievement
 
 1. Understanding of high cardinality of user_id field
